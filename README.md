@@ -1,0 +1,2 @@
+# StaticWebPages
+Static html files
