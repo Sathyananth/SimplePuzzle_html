@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.shiftLetters.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	
+<style>
+
+
+.tbout {
+	position: relative;
+}
+
+table.ex1 {
+    border-collapse: separate;
+    border-spacing: 30px;
+    font-size: 50px;
+	font-family: Calibri;
+	color:white;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.result {
+    background-color: blue;
+    width: auto;
+	height:auto;
+	padding-left:10px;
+	padding-right:10px;
+	font-size: 70px;
+    font-family: Calibri;
+	text-align:center;
+	color:white;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+</style>
+
+<title>Page Title</title>
+</head>
+
+<body style="background-color:#80d4ff;">
+
+<div class="container-fluid">
+
+<div class="row" id="row1">
+
+<div class="col-lg-7 col-md-7 col-sm-7" style="height:100%" id="r1c1">
+
+<div class="tbout" style="height:100%;width:100%;">
+
+<table class="ex1" >
+  <tr>
+    <th id="1a" onclick="myFunction('1a')">F</th>
+    <th id="1b" onclick="myFunction('1b')">E</th>
+    <th id="1c" onclick="myFunction('1c')">D</th>
+    <th id="1d" onclick="myFunction('1d')">V</th>
+    <th id="1e" onclick="myFunction('1e')">W</th>
+    <th id="1f" onclick="myFunction('1f')">R</th>
+    <th id="1g" onclick="myFunction('1g')">A</th>
+    <th id="1h" onclick="myFunction('1h')">E</th>
+    <th id="1i" onclick="myFunction('1i')">T</th>
+    <th id="1j" onclick="myFunction('1j')">C</th>
+  </tr>
+  <tr>
+    <th id="2a" onclick="myFunction('2a')">K</th>
+    <th id="2b" onclick="myFunction('2b')">A</th>
+    <th id="2c" onclick="myFunction('2c')">B</th>
+    <th id="2d" onclick="myFunction('2d')">I</th>
+    <th id="2e" onclick="myFunction('2e')">C</th>
+    <th id="2f" onclick="myFunction('2f')">I</th>
+    <th id="2g" onclick="myFunction('2g')">L</th>
+    <th id="2h" onclick="myFunction('2h')">A</th>
+    <th id="2i" onclick="myFunction('2i')">S</th>
+    <th id="2j" onclick="myFunction('2j')">R</th>
+  </tr>
+  <tr>
+    <th id="3a" onclick="myFunction('3a')">R</th>
+    <th id="3b" onclick="myFunction('3b')">W</th>
+    <th id="3c" onclick="myFunction('3c')">J</th>
+    <th id="3d" onclick="myFunction('3d')">L</th>
+    <th id="3e" onclick="myFunction('3e')">Y</th>
+    <th id="3f" onclick="myFunction('3f')">U</th>
+    <th id="3g" onclick="myFunction('3g')">Q</th>
+    <th id="3h" onclick="myFunction('3h')">Z</th>
+    <th id="3i" onclick="myFunction('3i')">E</th>
+    <th id="3j" onclick="myFunction('3j')">R</th>
+  </tr>
+  <tr>
+    <th id="4a" onclick="myFunction('4a')">Y</th>
+    <th id="4b" onclick="myFunction('4b')">E</th>
+    <th id="4c" onclick="myFunction('4c')">Y</th>
+    <th id="4d" onclick="myFunction('4d')">G</th>
+    <th id="4e" onclick="myFunction('4e')">S</th>
+    <th id="4f" onclick="myFunction('4f')">A</th>
+    <th id="4g" onclick="myFunction('4g')">W</th>
+    <th id="4h" onclick="myFunction('4h')">E</th>
+    <th id="4i" onclick="myFunction('4i')">R</th>
+    <th id="4j" onclick="myFunction('4j')">W</th>
+  </tr>
+  <tr>
+    <th id="5a" onclick="myFunction('5a')">T</th>
+    <th id="5b" onclick="myFunction('5b')">T</th>
+    <th id="5c" onclick="myFunction('5c')">Y</th>
+    <th id="5d" onclick="myFunction('5d')">W</th>
+    <th id="5e" onclick="myFunction('5e')">Q</th>
+    <th id="5f" onclick="myFunction('5f')">C</th>
+    <th id="5g" onclick="myFunction('5g')">T</th>
+    <th id="5h" onclick="myFunction('5h')">F</th>
+    <th id="5i" onclick="myFunction('5i')">G</th>
+    <th id="5j" onclick="myFunction('5j')">Q</th>
+  </tr>
+  <tr>
+    <th id="6a" onclick="myFunction('6a')">T</th>
+    <th id="6b" onclick="myFunction('6b')">Q</th>
+    <th id="6c" onclick="myFunction('6c')">W</th>
+    <th id="6d" onclick="myFunction('6d')">S</th>
+    <th id="6e" onclick="myFunction('6e')">A</th>
+    <th id="6f" onclick="myFunction('6f')">M</th>
+    <th id="6g" onclick="myFunction('6g')">U</th>
+    <th id="6h" onclick="myFunction('6h')">I</th>
+    <th id="6i" onclick="myFunction('6i')">E</th>
+    <th id="6j" onclick="myFunction('6j')">D</th>
+  </tr>
+</table>
+</div>
+</div>
+
+<div class="col-lg-5 col-md-5 col-sm-5" style="height:100%" id="r1c2">
+
+<div class="tbout" style="height:100%;width:100%;">
+
+<div class="result" id="resultId">
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+	
+<script>
+
+		var word = "KABICILAS";
+		var matchedNO = 0;
+		var listOfId = [];
+		var showedResult = false;
+		
+		$(document).click(function(evt) {
+			if(showedResult)
+		{
+			showedResult = false;
+		}
+		else{
+			if(matchedNO==word.length)
+				{
+				window.location="puzzle_9.html";
+				}
+			}
+		});
+		
+		function myFunction(id) 
+		{
+		var letter = document.getElementById(id).innerHTML;
+		
+
+		for (i = 0; i < word.length; i++) 
+		{ 
+			if(i==matchedNO)
+			{
+				if(letter==word.charAt(matchedNO))
+				{
+					listOfId.push(id);
+					matchedNO = matchedNO+1;
+					document.getElementById(id).style.color = "black";
+					break;
+				}
+				else
+				{
+					for (j = 0; j < listOfId.length; j++) 
+					{
+						document.getElementById(listOfId[j]).style.color = "white";
+					}						
+					matchedNO = 0;
+					listOfId = [];
+				}
+			}
+			else
+			{
+			if(matchedNO==word.length)
+			{
+			window.location="puzzle_9.html";
+			}
+			}
+		}
+		
+		if(matchedNO==word.length)
+			{
+			document.getElementById('resultId').innerHTML = "KABICILAS";
+			showedResult = true;
+			}
+	}		
+
+</script>
+<script id="autoScript">
+        $(document).ready(function(){
+		
+		var hhh = $(window).height();
+		
+		 $("#row1").height(hhh);
+		
+            $('th').shiftLetters({minOffset: 20, maxOffset: 50, duration: 2000, easing: 'easeOutBounce'});
+        });
+		
+</script>
+
+</body>
+</html>
